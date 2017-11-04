@@ -15,7 +15,7 @@
     <header id="main-header">
       <div class="row no-gutters">
         <div class="col-lg-4 col-md-5">
-          <img src="img/julie.png" class="rounded-circle">
+          <img src="img/julie.png" class="rounded-circle-responsive">
         </div>
         <div class="col-lg-8 col md-7">
           <!-- flex-column indicates that this is a vertical column -->
@@ -36,7 +36,7 @@
 
             <div>
               <div class="d-flex flex-row text-white aligh-items-stretch text-center">
-                <div class="port-item p-4 bg-primary">
+                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
                   <i class="fa fa-home d-block"></i> Home
                 </div>
                 <div class="port-item p-4 bg-success">
@@ -50,11 +50,79 @@
                 </div>
               </div>
             </div>
-
           </div> <!-- end <div class="d-flex flex-column"> line 22 -->
         </div> <!-- end  <div class="col-lg-8 col md-7"> line 20 -->
       </div> <!-- end div row no-gutters -->
     </header>
+
+<!-- HOME -->
+    <div id="home" class="collapse show">
+      <div class="card card-body bg-primary text-white py-5">
+        <h2>Welcome to My Page</h2>
+        <p class="leadd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, accusantium!</p>
+      </div>
+      
+      
+      <div class="card card-body py-5">
+        <h3>My Skills</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugiat fugit facilis dolores nulla rem?</p>
+        <hr>
+        <h4>JavaScript</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>jQuery</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>HTML</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>CSS</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>Bootstrap</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>Angular JS</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:70%"></div>
+        </div>
+        <h4>node.js</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>Express.js</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>MongoDB/Mongoose</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>PostgreSQL/Postico</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>git/github</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer id="main-footer" class="p-5 bg-dark text-white">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud"></i>Download Resume</a>
+        </div>
+      </div>
+    </footer>
+    
   </div> <!-- end container -->
         
 
